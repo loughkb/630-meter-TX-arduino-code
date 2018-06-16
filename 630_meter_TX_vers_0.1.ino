@@ -20,7 +20,7 @@ Si5351 si5351;
 // Declare variables we will use in the program
 
 int tail = 0;  // The counter for the keying tail delay
-int taildefault = 1000; // Default to 7/10ths second tail, change if you want.
+int taildefault = 1000; // Default to 1 second tail, change if you want.
 int keyed = 1; //flag to indicate keyed state
 int keyedprev = 1; //flag to indicate previous key state after a change
 int unkeyflag = 0; //flag for end of timeout switch back to RX
